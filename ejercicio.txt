@@ -13,5 +13,10 @@ public class Ejercicio {
 
       System.out.println("Introduce un número entero:");
       n=sc.nextInt();
+
+      if(esPar(n))
+         System.out.println("El número introducido es PAR.");
+      else
+         System.out.println("El número introducido es IMPAR.");
    }
 }
