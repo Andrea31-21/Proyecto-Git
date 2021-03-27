@@ -1,7 +1,12 @@
 import java.util.Scanner;
-public class Ejercicio {}[D
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[
+public class Ejercicio {
+   public static boolean esPar(int n){
+      if(n%2==0)
+         return true;
+      else
+         return false;
+   }
+
    public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
       int n;
